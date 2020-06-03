@@ -1,0 +1,11 @@
+.header {
+  padding: 30px 0;
+  min-height: 220px;
+  background: #f5f5f5;
+}
+
+.header_content {
+  display: grid;
+  grid-template-columns: 140px calc(85% - 180px) 15%;
+  column-gap: 20px;
+}
