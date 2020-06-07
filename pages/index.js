@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Footer from '../components/footer/footer';
 import Header from '../components/header/header';
 import About from '../components/about/about';
+import Work from '../components/work-experience/work-experience'
+import Projects from '../components/projects/projects'
 
 export default function Home() {
   return (
@@ -17,18 +19,17 @@ export default function Home() {
           <About />
         </section>
         <section className="main-content__wrapper">
-          <About />
+          <Work />
         </section>
         <section className="main-content__wrapper">
-          <About />
+          <Projects />
         </section>
         </div>
         <div>right</div>
       </main>
-
-      <footer>
+      {/* <footer>
         <Footer />
-      </footer>
+      </footer> */}
     </div>
   )
 }
