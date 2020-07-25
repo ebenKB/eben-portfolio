@@ -15,18 +15,40 @@ a {
   text-decoration: none;
 }
 
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+}
+
 .container {
-  width: 70%;
+  width: 80%;
   margin: auto;
+}
+
+.right-side {
+  background: white;
+  margin-bottom: 20px;
 }
 
 .full-circle {
   border-radius: 100%;
   background: rgba(126, 124, 124,0.2);
-  width: 140px;
-  height: 140px;
+  width: 150px;
+  height: 150px;
   border: 1px solid #e8e9e9;
   box-shadow: 0 1px 2px rgba(0,0,0,.5);
+  z-index: 2;
+}
+
+.full-circle img {
+  width: 100%;
+  border-radius: 100%;
+  z-index: 1;
+}
+
+.full-width {
+  width: 100%;
 }
 
 .main-content {
@@ -61,14 +83,36 @@ a {
 
 .light.caption {
   font-weight: 300;
+  font-family: 'Lato', sans-serif;
 }
 
 .flex-center {
   display: flex;
 }
 
+.header h2,
+.header h3,
+.header h4,
+.header h5, 
+.header h6 {
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+ }
+
+ .header h1 {
+   margin-block-end: 0;
+ }
+
+ .header h4 {
+   font-size: 1.2em;
+ }
+
 .flex-center.space-between div:not(:last-child){
   margin-right: 10px;
+}
+
+.semi-bold {
+  font-weight: 500 !important;
 }
 
 .round.placeholder {
@@ -86,6 +130,7 @@ a {
 .round.placeholder:hover {
   background: rgb(29, 29, 29);
 }
+
 svg.light {
   fill: #434E5E;
 }

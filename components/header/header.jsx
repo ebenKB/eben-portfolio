@@ -10,10 +10,12 @@ const Header = () => {
     <div className={styles.header}>
       <div className="container">
           <div className={styles.header_content}>
-            <div className="full-circle"></div>
-            <div>
+            <div className="full-circle">
+              <img src="/images/eben.jpg" alt="image"/>
+            </div>
+            <div className="header">
               <h1>Ebenezer Boafo Adjei</h1>
-              <h2 className="light caption">Software Engineer</h2>
+              <h2 className="light caption semi-bold">Software Engineer</h2>
               <h4 className="light caption">Bsc. Computer Science '18,
                 &nbsp;
                 <a href="https://www.knust.edu.gh/" target="_blank">KNUST</a>

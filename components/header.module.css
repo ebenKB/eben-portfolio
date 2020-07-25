@@ -4,8 +4,8 @@
   background: #f5f5f5;
 }
 
-.header_content {
+ .header_content {
   display: grid;
-  grid-template-columns: 140px calc(85% - 180px) 15%;
+  grid-template-columns: 160px calc(85% - 100px) 15%;
   column-gap: 20px;
 }

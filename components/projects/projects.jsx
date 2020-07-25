@@ -1,16 +1,15 @@
 import React from 'react'
 import Divider from '../divider/divider';
+import CaptionWrapper from '../caption-wrapper/caption-wrapper';
 
-const Projects = () => {
+const Projects = ({title, children}) => {
   return (
     <div className="content-pad caption-wrapper">
-      <h1>Projects</h1>
-      <Divider />
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aspernatur nulla asperiores obcaecati, 
-        assumenda reiciendis non veritatis ipsum quibusdam rerum ea minus voluptate minima labore aut dolor cum 
-        deleniti aperiam?
-      </p>
+      <CaptionWrapper>
+        <h1>{title}</h1>
+        <Divider />
+        {children}
+      </CaptionWrapper>
     </div>
   )
 }
