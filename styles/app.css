@@ -13,6 +13,7 @@ body{
 
 a {
   text-decoration: none;
+  color: #09a507;
 }
 
 p {
@@ -26,9 +27,15 @@ p {
   margin: auto;
 }
 
-.right-side {
-  background: white;
+.aside {
   margin-bottom: 20px;
+  
+}
+
+
+.aside-content {
+  background: white;
+  width: calc(100% - 40px);
 }
 
 .full-circle {
@@ -67,6 +74,9 @@ p {
   background: white;
 }
 
+.caption.padded {
+  margin: 0 5px;
+} 
 .main-content__wrapper {
   margin-bottom: 20px;
 }
@@ -86,8 +96,28 @@ p {
   font-family: 'Lato', sans-serif;
 }
 
+.very-light.caption {
+  font-weight: 300;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.85rem;
+}
+
+.faint {
+  color: #7f8182;
+}
+
 .flex-center {
   display: flex;
+}
+
+.inline-flex.center {
+  display: inline-flex;
+  align-items: center;
+}
+
+.medium.icon {
+  width: 20px;
+  height: auto;
 }
 
 .header h2,
@@ -97,6 +127,16 @@ p {
 .header h6 {
   margin-block-start: 0.5em;
   margin-block-end: 0.5em;
+ }
+
+h1.no-pad,
+h2.no-pad,
+h3.no-pad,
+h4.no-pad,
+h5.no-pad,
+h6.no-pad {
+  margin-block-start: 0;
+  margin-block-end: 0;
  }
 
  .header h1 {
@@ -141,4 +181,16 @@ svg.light {
 
 .divider {
   border-bottom: 1px solid #dfdfdf;
+}
+
+.github-link {
+  margin: 40px 0;
+}
+
+.list-item {
+  margin: 15px 0;
+}
+
+.list-item .icon {
+  margin-right: 10px;
 }

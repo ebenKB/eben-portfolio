@@ -46,7 +46,7 @@ const WorkExperience = () => {
       <CaptionWrapper>
         <h3>
           <span className="bold title">Web Development Instructor - </span>
-          <span className="light caption">Apotica Company Limited</span>
+          <span className="light caption">NUPS-G KNUST Web Team</span>
         </h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aspernatur nulla asperiores obcaecati, 

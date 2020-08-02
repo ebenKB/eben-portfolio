@@ -1,0 +1,18 @@
+.programming_stacks {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.programming_stack__item {
+  background: rgb(56, 56, 56);
+  padding: 8px;
+  border-radius: 4px;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.programming_stack__item:not(:last-child) {
+  margin-right: 5px;
+}

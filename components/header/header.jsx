@@ -40,7 +40,14 @@ const Header = () => {
             </div>
             <div>
             <Link href="/">
-              <a className="active button">Contact Me</a>
+              <a className="active button inline-flex center">
+                <span>
+                  <img src="/images/send.svg" alt="image" className="medium icon" />
+                </span>
+                <span className="caption padded">
+                  Contact Me
+                </span>
+              </a>
             </Link>
             </div>
           </div>
