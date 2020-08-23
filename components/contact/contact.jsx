@@ -18,7 +18,7 @@ const Contact = () => {
         <div>
           <img src="/images/github.svg" alt="icon" className="medium icon" />
         </div>
-        <a href="">https://github.com/ebenKB</a>
+        <a href="https://github.com/ebenKB" target="_blank">https://github.com/ebenKB</a>
       </div>
       <div className="flex-center list-item">
         <div>

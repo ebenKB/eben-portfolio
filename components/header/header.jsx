@@ -18,29 +18,46 @@ const Header = () => {
               <h2 className="light caption semi-bold">Software Engineer</h2>
               <h4 className="light caption">Bsc. Computer Science '18,
                 &nbsp;
-                <a href="https://www.knust.edu.gh/" target="_blank">KNUST</a>
+                <a 
+                  href="https://www.knust.edu.gh/" 
+                  target="_blank"
+                >
+                KNUST
+              </a>
               </h4>
               <div className="flex-center space-between">
                 <div className="round placeholder">
-                  <Link  href="/">
-                  <a> <GitHubIcon className="light"/></a>
-                  </Link>
+                    <a 
+                      href="https://www.github.com/ebenKB"
+                      target="_blank"
+                    >
+                      <GitHubIcon className="light"/>
+                    </a>
                 </div>
                 <div className="round placeholder">
-                  <Link  href="/">
-                  <a> <TwitterIcon className="light" /></a>
-                  </Link>
+                  <a 
+                    href="https://www.twitter.com/eben_kb"
+                    target="_blank"
+                  >
+                    <TwitterIcon className="light" />
+                  </a>
                 </div>
                 <div className="round placeholder">
-                  <Link  href="/">
-                  <a> <LinkedInIcon className="light" /></a>
-                  </Link>
+                    <a 
+                      href="https://www.linkedin.com/in/ebenezer-boafo-adjei/" 
+                      target="_blank"
+                    >
+                      <LinkedInIcon className="light" />
+                    </a>
                 </div>
               </div>
             </div>
             <div>
-            <Link href="/">
-              <a className="active button inline-flex center">
+              <a
+                className="active button inline-flex center" 
+                href="mailto:eboafo.adjei@gmail.com" 
+                target="_blank"
+              >
                 <span>
                   <img src="/images/send.svg" alt="image" className="medium icon" />
                 </span>
@@ -48,7 +65,6 @@ const Header = () => {
                   Contact Me
                 </span>
               </a>
-            </Link>
             </div>
           </div>
       </div>
