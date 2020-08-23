@@ -10,7 +10,7 @@ const Header = () => {
     <div className={styles.header}>
       <div className="container">
           <div className={styles.header_content}>
-            <div className="full-circle">
+            <div className={`full-circle ${styles.header_image}`}>
               <img src="/images/eben.jpg" alt="image"/>
             </div>
             <div className="header">
@@ -52,7 +52,7 @@ const Header = () => {
                 </div>
               </div>
             </div>
-            <div>
+            <div className={styles.contact_wrapper}>
               <a
                 className="active button inline-flex center" 
                 href="mailto:eboafo.adjei@gmail.com" 

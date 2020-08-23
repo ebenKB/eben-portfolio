@@ -39,7 +39,7 @@ p {
 
 .aside-content {
   background: white;
-  width: calc(100% - 40px);
+  width: calc(100% - 80px);
 }
 
 .full-circle {
@@ -90,6 +90,7 @@ p {
 .caption.padded {
   margin: 0 5px;
 } 
+
 .main-content__wrapper {
   margin-bottom: 20px;
 }
@@ -210,4 +211,19 @@ svg.light {
 
 .list-item .icon {
   margin-right: 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  .main-content {
+    grid-template-columns: 1fr;
+  }
+
+  .container {
+    width: 90%;
+  }
 }

@@ -4,3 +4,10 @@
   column-gap: 20px;
   margin-bottom: 40px;
 }
+
+@media only screen and (max-width: 768px) {
+  .split_view {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}

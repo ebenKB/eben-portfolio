@@ -9,3 +9,19 @@
   grid-template-columns: 160px calc(85% - 100px) 15%;
   column-gap: 20px;
 }
+
+
+@media only screen and (max-width: 768px) {
+  .header_content {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .contact_wrapper {
+    margin: 20px auto auto auto;
+  }
+
+  .header_image {
+    margin: auto;
+  }
+}
