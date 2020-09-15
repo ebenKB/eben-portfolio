@@ -2,8 +2,8 @@ const withReactSvg = require('next-react-svg')
 const path = require('path')
  
 module.exports={
-  assetPrefix: '/ebenKB/',
-  basePath: '/ebenKB'
+  assetPrefix: '/ebenkb.github.io/',
+  basePath: '/ebenkb.github.io'
 }
 
 module.exports = withReactSvg({
